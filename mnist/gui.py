@@ -50,8 +50,6 @@ btnClear.pack(pady=5)
 cv = Canvas(root, width=width, height=height, bg='#D1D9DC')
 cv.pack()
 
-# PIL create an empty image and draw object to draw on
-# memory only, not visible
 image1 = PIL.Image.new("RGB", (width, height), white)
 draw = ImageDraw.Draw(image1)
 
